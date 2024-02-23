@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Products - DIWEB</title>
+    <title>Catálogo - DIWEB</title>
     <meta name="author" content="amunlozb">
     <script src="assets/js/tema.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- Nav -->
     <nav class="navbar navbar-expand-md sticky-top navbar-shrink py-3 navbar-light" id="mainNav">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
                         <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"></path>
@@ -41,39 +42,44 @@
             </div>
         </div>
     </nav>
+    <!-- Toast -->
     <section class="d-flex flex-column py-5">
         <div class="toast fade text-start flex-row align-self-end hide" role="alert" id="toast-1" style="position: fixed;overflow: visible;z-index: 30;opacity: 1;transform: translate(0px) translateX(0px) translateY(0px);margin-right: 20px;margin-top: -30px;">
-            <div class="toast-header" style="text-align: center;"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" type="button" aria-label="Close" data-bs-dismiss="toast"></button></div>
+            <div class="toast-header" style="text-align: center;"><img class="me-2"><strong class="me-auto">Título</strong><small>hace 10 min</small><button class="btn-close ms-2 mb-1 close" type="button" aria-label="Close" data-bs-dismiss="toast"></button></div>
             <div class="toast-body" role="alert" style="opacity: 1;">
                 <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
             </div>
         </div>
+        <!-- Breadcrumbs -->
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html"><span>Home</span></a></li>
                 <li class="breadcrumb-item"><a href="#"><span>Catalogo</span></a></li>
             </ol>
         </div>
+        <!-- Titulo -->
         <div class="container py-4 py-xl-5">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2 class="fw-bold">Productos Destacados</h2>
-                    <p class="w-lg-50 fw-semibold text-success">Prueba nuestras últimas novedades!</p>
+                    <p class="w-lg-50 fw-semibold text-success-emphasis">Prueba nuestras últimas novedades!</p>
                 </div>
             </div>
+            <!-- Carousel -->
             <div class="row" style="margin-bottom: 45px;">
                 <div class="col d-flex justify-content-center" style="margin-top: -40px;">
                     <div class="carousel slide" data-bs-ride="false" id="carousel-1" style="width: 50%;">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="rounded w-100 d-block d-flex justify-content-center" src="assets/img/carousel/carousel1.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="rounded w-100 d-block" src="assets/img/carousel/carousel2.webp" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="rounded w-100 d-block" src="assets/img/carousel/carousel3.webp" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="rounded w-100 d-block d-flex justify-content-center" src="assets/img/carousel/carousel1.webp" alt="Café Marron con un corazón"></div>
+                            <div class="carousel-item"><img class="rounded w-100 d-block" src="assets/img/carousel/carousel2.webp" alt="Café verde natural"></div>
+                            <div class="carousel-item"><img class="rounded w-100 d-block" src="assets/img/carousel/carousel3.webp" alt="Café Rosa"></div>
                         </div>
-                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev" aria-label="botón anterior imagen"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-label="Botón siguiente imagen"></span><span class="visually-hidden">Next</span></a></div>
                         <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-label="Carousel posición 1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Carousel posición 2"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Carousel posición 3"></button></div>
                     </div>
                 </div>
             </div>
+            <!-- Paginacion (arriba) -->
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <nav>
@@ -89,72 +95,74 @@
                     </nav>
                 </div>
             </div>
+            <!-- Productos -->
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img1.webp" alt="Imagen de café bolsa">
                         <div class="card-body p-4" style="padding-top: 5px;">
-                            <p class="text-start text-primary card-text mb-0 fw-semibold">CoffeeBrand</p>
-                            <h4 class="card-title">Espresso Mocha</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-start text-primary card-text mb-0 fw-semibold" aria-label="Marca: CoffeeBrand">CoffeeBrand</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Espresso Mocha</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img2.webp" alt="Imagen de café rosa">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">HomeCup</p>
-                            <h4 class="card-title">Late Machiatto</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: HomeCup">HomeCup</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Late Machiatto</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img3.webp" alt="Imagen de café azul">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">Elegance</p>
-                            <h4 class="card-title">Caramel Pumpkin Spice</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: Elegance">Elegance</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Caramel Pumpkin Spice</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img4.webp" alt="Imagen de café helado rosa">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">IcedCups</p>
-                            <h4 class="card-title">Matcha Coffee</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: IcedCups">IcedCups</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Matcha Coffee</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img5.webp" alt="Imagen de café bliss">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">ChocoLatte</p>
-                            <h4 class="card-title">Bliss Cup</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: ChocoLatte">ChocoLatte</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Bliss Cup</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img6.webp" alt="Imagen de café late">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">Vanilla Dream</p>
-                            <h4 class="card-title">Vanilla Cup Late</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: Vanilla Dream">Vanilla Dream</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Vanilla Cup Late</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/products/product-img7.webp" alt="Imagen de café en plastico blanco">
                         <div class="card-body p-4">
-                            <p class="text-primary  fw-semibold">IcedCups</p>
-                            <h4 class="card-title">Iced Chocolate Frappuccino</h4>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="text-primary  fw-semibold" aria-label="Marca: IcedCups">IcedCups</p>
+                            <span aria-label="Nombre del Producto:"></span><h4 class="card-title">Iced Chocolate Frappuccino</h4>
+                            <span aria-label="Descripción:"></span><p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Paginación (abajo) -->
         <div class="container d-flex justify-content-center">
             <nav>
                 <ul class="pagination">
@@ -169,6 +177,7 @@
             </nav>
         </div>
     </section>
+    <!-- Footer -->
     <footer class="bg-primary-gradient">
         <div class="container py-4 py-lg-5">
             <div class="row justify-content-center">

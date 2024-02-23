@@ -13,7 +13,7 @@ const data = {
     ],
     datasets: [{
         label: 'DAWEB',
-        data: [65, 59, 90, 81, 56, 55, 40],
+        data: [65, 59, 50, 43, 26, 55, 40],
         fill: true,
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
         borderColor: 'rgb(255, 99, 132)',
@@ -23,7 +23,7 @@ const data = {
         pointHoverBorderColor: 'rgb(255, 99, 132)'
     }, {
         label: 'DIWEB',
-        data: [28, 48, 40, 19, 96, 27, 100],
+        data: [38, 78, 40, 59, 86, 57, 60],
         fill: true,
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: 'rgb(54, 162, 235)',
@@ -47,7 +47,7 @@ new Chart(ctx1, {
         ],
         datasets: [{
             label: 'Dataset Polar',
-            data: [15, 20, 10, 5, 12],
+            data: [6, 5, 10, 5, 8],
             backgroundColor: [
                 'rgb(255, 99, 132)',    
                 'rgb(54, 162, 235)',   
