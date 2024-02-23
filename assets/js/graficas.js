@@ -3,16 +3,16 @@ const ctx2 = document.getElementById('grafica2');
 
 const data = {
     labels: [
-        'Eating',
-        'Drinking',
-        'Sleeping',
-        'Designing',
-        'Coding',
-        'Cycling',
-        'Running'
+        'Inicio',
+        'Perfil',
+        'Configuración',
+        'Diseño',
+        'Código',
+        'Prototipo',
+        'Pruebas'
     ],
     datasets: [{
-        label: 'My First Dataset',
+        label: 'DAWEB',
         data: [65, 59, 90, 81, 56, 55, 40],
         fill: true,
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -22,7 +22,7 @@ const data = {
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgb(255, 99, 132)'
     }, {
-        label: 'My Second Dataset',
+        label: 'DIWEB',
         data: [28, 48, 40, 19, 96, 27, 100],
         fill: true,
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -34,25 +34,26 @@ const data = {
     }]
 };
 
+
 new Chart(ctx1, {
     type: 'polarArea',
     data: {
         labels: [
-            'Red',
-            'Green',
-            'Yellow',
-            'Grey',
-            'Blue'
+            'JavaScript',
+            'Python',
+            'Java',
+            'C++',
+            'Ruby'
         ],
         datasets: [{
-            label: 'My First Dataset',
-            data: [11, 16, 7, 3, 14],
+            label: 'Dataset Polar',
+            data: [15, 20, 10, 5, 12],
             backgroundColor: [
-                'rgb(255, 99, 132)',
-                'rgb(75, 192, 192)',
-                'rgb(255, 205, 86)',
-                'rgb(201, 203, 207)',
-                'rgb(54, 162, 235)'
+                'rgb(255, 99, 132)',    
+                'rgb(54, 162, 235)',   
+                'rgb(255, 205, 86)',   
+                'rgb(75, 192, 192)',   
+                'rgb(153, 102, 255)'   
             ]
         }]
     },
@@ -64,6 +65,7 @@ new Chart(ctx1, {
         }
     }
 });
+
 
 new Chart(ctx2, {
     type: 'radar',
